@@ -47,7 +47,6 @@ totalc=length(center);
 x=center(1:2:totalc);
 y=center(2:2:totalc);
 
-figure (6);
 imshow(mask4, []);
 hold on;
 plot(x,y,'r*','MarkerSize',20);
@@ -57,8 +56,4 @@ plot(x,y,'r*','MarkerSize',20);
 %Image coordinates). 
 
 newfig=ones(size(mask4));
-figure(7);
-imshow(newfig,[]);
-hold on;
-plot(x,y,'r*','MarkerSize',10);
 
